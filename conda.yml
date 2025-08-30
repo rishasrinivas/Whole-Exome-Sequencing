@@ -1,0 +1,46 @@
+name: wes_pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Pipeline orchestration
+  - nextflow>=23.10.0
+  
+  # Quality control
+  - fastqc>=0.12.1
+  - multiqc>=1.19
+  
+  # Alignment tools
+  - bwa 
+  - bwa-mem2>=2.2.1
+  - samtools>=1.19
+  - picard>=3.1.0
+  
+  # Variant calling
+  - gatk4>=4.4.0
+  
+  # Variant annotation
+  - ensembl-vep>=110.1
+  
+  # General utilities
+  - bcftools>=1.19
+  - htslib>=1.19
+  - bedtools>=2.31.0
+  
+  # Python and packages for report generation
+  - python>=3.11
+  - pandas>=2.1.0
+  - numpy>=1.24.0
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.0
+  - jinja2>=3.1.0
+  - pysam>=0.22.0
+  - cyvcf2>=0.30.0
+  
+  # Additional utilities
+  - parallel>=20230822
+  - gzip
+  - pigz
+  - wget
+  - curl
