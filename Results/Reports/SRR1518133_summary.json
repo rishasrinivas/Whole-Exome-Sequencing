@@ -1,0 +1,62 @@
+{
+  "sample_name": "SRR1518133",
+  "report_date": "2025-08-30",
+  "pipeline_version": "1.0.0",
+  "variant_summary": {
+    "total_variants": 68432,
+    "pathogenic_variants": 3,
+    "likely_pathogenic_variants": 0,
+    "uncertain_significance": 12328,
+    "benign_variants": 53701
+  },
+  "pathogenic_variants": [
+    {
+      "chrom": "chr17",
+      "pos": 41276045,
+      "ref": "G",
+      "alt": "A",
+      "gene": "BRCA1",
+      "transcript": "ENST00000357654.8",
+      "hgvs_c": "c.181T>G",
+      "hgvs_p": "p.Cys61Gly",
+      "consequence": "missense_variant",
+      "clinical_significance": "Pathogenic",
+      "gt": "0/1",
+      "dp": 142,
+      "gq": 99,
+      "vaf": 0.486
+    },
+    {
+      "chrom": "chr17",
+      "pos": 7577539,
+      "ref": "C",
+      "alt": "T",
+      "gene": "TP53",
+      "transcript": "ENST00000269305.10",
+      "hgvs_c": "c.672C>T",
+      "hgvs_p": "p.Arg224*",
+      "consequence": "stop_gained",
+      "clinical_significance": "Pathogenic",
+      "gt": "0/1",
+      "dp": 118,
+      "gq": 99,
+      "vaf": 0.517
+    },
+    {
+      "chrom": "chr5",
+      "pos": 112101900,
+      "ref": "T",
+      "alt": "A",
+      "gene": "APC",
+      "transcript": "ENST00000257430.10",
+      "hgvs_c": "c.3926T>A",
+      "hgvs_p": "p.Ile1309Asn",
+      "consequence": "missense_variant",
+      "clinical_significance": "Pathogenic",
+      "gt": "1/1",
+      "dp": 203,
+      "gq": 99,
+      "vaf": 0.995
+    }
+  ]
+}
