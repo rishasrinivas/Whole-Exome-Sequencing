@@ -14,12 +14,12 @@ This pipeline performs comprehensive WES analysis including:
 
 ## Features
 
-- ✅ **Production-ready**: Robust error handling and resource management
-- ✅ **Scalable**: Configurable for local, cluster, or cloud execution
-- ✅ **Comprehensive**: Full pipeline from FASTQ to clinical report
-- ✅ **Clinical focus**: Automated filtering and reporting of pathogenic variants
-- ✅ **Quality controlled**: Integrated QC at every step
-- ✅ **Reproducible**: Containerized environment with version control
+- **Production-ready**: Robust error handling and resource management
+- **Scalable**: Configurable for local, cluster, or cloud execution
+-  **Comprehensive**: Full pipeline from FASTQ to clinical report
+- **Clinical focus**: Automated filtering and reporting of pathogenic variants
+- **Quality controlled**: Integrated QC at every step
+-  **Reproducible**: Containerized environment with version control
 
 ## Quick Start
 
@@ -137,16 +137,16 @@ wes-pipeline/
 ├── data/                   # Input data directory
 │   └── raw/                # Raw FASTQ files
 ├── reference/              # Reference files
-│   ├── GRCh38.fa
-│   ├── dbsnp.vcf.gz
-│   └── exome_targets.bed
+│   ├── GRCh38.fa, haven't attached here in github dure to memory issues
+│   ├── dbsnp.vcf.gz, haven't attached here in github dure to memory issues
+│   └── exome_targets.bed, haven't attached here in github dure to memory issues
 └── results/                # Output directory
-    ├── qc/                 # Quality control reports
-    ├── alignment/          # Aligned BAM files
-    ├── variants/           # Variant calls (VCF)
-    ├── annotation/         # Annotated variants
+    ├── qc/                 # Quality control reports, haven't attached here in github dure to memory issues
+    ├── alignment/          # Aligned BAM files,reports haven't attached here in github dure to memory issues
+    ├── variants/           # Variant calls (VCF),reports haven't attached here in github dure to memory issues
+    ├── annotation/         # Annotated variants,reports haven't attached here in github dure to memory issues
     ├── reports/            # Clinical reports
-    └── pipeline_info/      # Pipeline execution info
+    └── pipeline_info/      # Pipeline execution info,reports haven't attached here in github dure to memory issues
 ```
 
 ## Output Files
@@ -368,10 +368,6 @@ The pipeline outputs standard formats (BAM, VCF) compatible with:
 - Variant annotation pipelines  
 - Clinical reporting systems
 - Population genetics tools
-
-## License
-
-This pipeline is released under the MIT License. See LICENSE file for details.
 
 ## Citations
 
