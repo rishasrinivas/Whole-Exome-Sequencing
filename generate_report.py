@@ -1,13 +1,4 @@
-#!/usr/bin/env python3
-"""
-WES Clinical Report Generator
 
-This script parses an annotated VCF file from VEP and generates a comprehensive
-clinical report highlighting pathogenic and likely pathogenic variants.
-
-Author: WES Pipeline Team
-Version: 1.0.0
-"""
 
 import argparse
 import sys
